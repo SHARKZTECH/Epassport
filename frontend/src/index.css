@@ -1,0 +1,46 @@
+main {
+  min-height: 80vh;
+}
+.rating span {
+  margin: 0.2rem;
+}
+h3 {
+  padding: 0.3rem;
+}
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+h2 {
+  font-size: 0.1rem;
+  padding: 0.5rem 0;
+  margin-bottom: 0;
+}
+.arrow i {
+  font-size: 2rem;
+  transition: transform 0.1s ease-in;
+}
+.arrow i:hover {
+  transform: scaleX(1.5);
+}
+li{
+  list-style-type: decimal;
+}
+
+.bg{
+  background: url('./assets/ecitizen-carousel-1.png');
+  min-width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 1px;
+}
+
+.carousel-caption h4 {
+  color: #fff;
+}
